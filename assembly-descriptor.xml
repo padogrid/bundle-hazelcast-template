@@ -29,8 +29,8 @@
 		<!-- @template: Set executable permissions to all scripts here for each fileSet. -->
 		<!-- Executable permissions -->
 		<fileSet>
-			<directory>cluster/myapp/bin_sh/</directory>
-			<outputDirectory>k8s/myapp/bin_sh/</outputDirectory>
+			<directory>apps/myapp/bin_sh/</directory>
+			<outputDirectory>apps/myapp/bin_sh/</outputDirectory>
 			<includes>
 				<include>**</include>
 			</includes>
