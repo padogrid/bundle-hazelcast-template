@@ -19,7 +19,13 @@ Select **Use this template** button in the upper right coner to create your repo
 ## 2. Checkout Repo in Workspace
 
 ```bash
+# PadoGrid 0.9.7+
+install_bundle -checkout <bundle-repo-name>
+
+# PadoGrid 0.9.6 and older
 install_bundle -download -workspace <bundle-repo-name>
+
+# Switch into the checked out bundle workspace
 switch_workspace <bundle-repo-name>
 ```
 
@@ -30,9 +36,10 @@ Update the files came with the template repo.
 - `pom.xml`
 - `assembly-descriptor.xml`
 - `.gitignore`
-- `README_HEADER.md`
-- `README.md` (this file)
+- `README_HEADER.md` (Optional)
+- `README.md` (This file)
 - `README.TEMPLATE` (Remove it when done. See instructions below.)
+- `required_products.txt`
 
 ### 3.1. pom.xml
 
@@ -65,7 +72,7 @@ pods
 
 ## 3.4. README_HEADER.md
 
-Enter a short description of your bundle in the `README_HEADER.md` file. This file content is displayed when you execute the `show_bundle -header` command.
+Enter a short description of your bundle in the `README_HEADER.md` file. This file content is displayed when you execute the `show_bundle -header` command. **Note that this file is optional.** If it does not exist, then the first paragraph of the README.md file is used instead.
 
 ## 3.5. READEME.md (this file)
 
@@ -77,6 +84,12 @@ git rm README_TEMPLATE.md
 ```
 
 Update the `READEME.md` file by following the instructions in that file.
+
+## 3.6. required_products.txt
+
+The `required_products.txt` file must include the a list of required products and their versions. Its format is described in the following link.
+
+[Relaxed Bundle Naming Conventions](https://github.com/padogrid/padogrid/wiki/User-Bundle-Repos#relaxed-conventions)
 
 ## 4. Develop and Test Bundle
 
