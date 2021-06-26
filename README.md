@@ -47,7 +47,7 @@ The `pom.xml` file contains instructions annocated with **@template**. Search **
 
 ### 3.2 assembly-descriptor.xml
 
-This file creates a tarball that will be deployed when the user executes the `install_bundle -download` command. Search **@template** and add your bundle specfics there.
+This file creates a tarball that will be deployed when the user executes the `install_bundle -download` command. Search **@template** and add your bundle specifics there.
 
 ### 3.3 .gitignore
 
