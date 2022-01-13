@@ -18,7 +18,6 @@ hazelcast=5
 #gemfire=
 #geode=
 #hadoop=
-#hazelcast=
 #hazelcast-enterprise=
 #jet=
 #jet-enterprise=
