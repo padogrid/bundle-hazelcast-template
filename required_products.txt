@@ -10,14 +10,20 @@
 #
 # hazelast=3.12,4.1.1,4.2
 #
+# If the bunndle does not require a product, then set none=1.
+#
 
-hazelcast=4
+hazelcast=5
+#coherence=
+#gemfire=
+#geode=
+#hadoop=
+#hazelcast=
 #hazelcast-enterprise=
 #jet=
 #jet-enterprise=
-#gemfire=
-#geode=
+#kafka=
+#none=1
+#pado=
 #snappydata=
 #spark=
-#coherence=
-#pado=
