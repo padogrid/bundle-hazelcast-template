@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
@@ -9,7 +8,7 @@
 	<!-- @template: Enter your bundle name here -->
 	<artifactId>bundle-hazelcast-template</artifactId>
 	<packaging>pom</packaging>
-        <name>${project.artifactId}</name>
+	<name>${project.artifactId}</name>
 	<version>1.0.0</version>
 	<!-- @template: Enter your bundle description -->
 	<description>Bundle template</description>
@@ -19,7 +18,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<hazelcast-addon.version>${project.version}</hazelcast-addon.version>
-                <skipTests>true</skipTests>
+		<skipTests>true</skipTests>
 	</properties>
 
 	<repositories>
@@ -33,8 +32,7 @@
 		</repository>
 	</repositories>
 
-	<dependencies>
-	</dependencies>
+	<dependencies></dependencies>
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -70,7 +68,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 			<!-- bundle distribution -->
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>

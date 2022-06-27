@@ -10,7 +10,8 @@
 #
 # hazelast=3.12,4.1.1,4.2
 #
-# If the bunndle does not require a product, then set none=1.
+# To deemphasize products, i.e., product not required, requires multiple products, etc.,
+# then set none=1.
 #
 
 hazelcast=5
@@ -24,5 +25,6 @@ hazelcast=5
 #kafka=
 #none=1
 #pado=
+#redis=
 #snappydata=
 #spark=
